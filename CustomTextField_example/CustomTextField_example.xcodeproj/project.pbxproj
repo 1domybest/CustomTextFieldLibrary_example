@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D19871B52D13C85A0040AFBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19871B22D13C85A0040AFBB /* ContentView.swift */; };
+		D19871B62D13C85A0040AFBB /* CustomTextField_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19871B32D13C85A0040AFBB /* CustomTextField_exampleApp.swift */; };
+		D19871B82D13C85A0040AFBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19871B12D13C85A0040AFBB /* Assets.xcassets */; };
+		D19871BA2D13C8630040AFBB /* UIKitViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19871B92D13C8630040AFBB /* UIKitViewRepresentable.swift */; };
+		D19871BD2D13C87A0040AFBB /* CustomTextFieldLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = D19871BC2D13C87A0040AFBB /* CustomTextFieldLibrary */; };
+		D19871C02D13C88B0040AFBB /* KeyboardManager in Frameworks */ = {isa = PBXBuildFile; productRef = D19871BF2D13C88B0040AFBB /* KeyboardManager */; };
+		D19871C82D13C8C10040AFBB /* TextViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19871C72D13C8C10040AFBB /* TextViewModel.swift */; };
+		D19871CA2D13C8C90040AFBB /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19871C92D13C8C90040AFBB /* TextView.swift */; };
+		D19871CC2D13C8D20040AFBB /* TextFieldViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19871CB2D13C8D20040AFBB /* TextFieldViewModel.swift */; };
+		D19871CE2D13C8D40040AFBB /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19871CD2D13C8D40040AFBB /* TextFieldView.swift */; };
+		D19871D12D13C9120040AFBB /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19871D02D13C9120040AFBB /* LazyView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D198719E2D13C8540040AFBB /* CustomTextField_example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTextField_example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19871B12D13C85A0040AFBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D19871B22D13C85A0040AFBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D19871B32D13C85A0040AFBB /* CustomTextField_exampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField_exampleApp.swift; sourceTree = "<group>"; };
+		D19871B92D13C8630040AFBB /* UIKitViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewRepresentable.swift; sourceTree = "<group>"; };
+		D19871C72D13C8C10040AFBB /* TextViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewModel.swift; sourceTree = "<group>"; };
+		D19871C92D13C8C90040AFBB /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		D19871CB2D13C8D20040AFBB /* TextFieldViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewModel.swift; sourceTree = "<group>"; };
+		D19871CD2D13C8D40040AFBB /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		D19871D02D13C9120040AFBB /* LazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D198719B2D13C8540040AFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19871BD2D13C87A0040AFBB /* CustomTextFieldLibrary in Frameworks */,
+				D19871C02D13C88B0040AFBB /* KeyboardManager in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D19871952D13C8540040AFBB = {
+			isa = PBXGroup;
+			children = (
+				D19871B42D13C85A0040AFBB /* CustomTextField_example */,
+				D198719F2D13C8540040AFBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D198719F2D13C8540040AFBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D198719E2D13C8540040AFBB /* CustomTextField_example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D19871B42D13C85A0040AFBB /* CustomTextField_example */ = {
+			isa = PBXGroup;
+			children = (
+				D19871B22D13C85A0040AFBB /* ContentView.swift */,
+				D19871B32D13C85A0040AFBB /* CustomTextField_exampleApp.swift */,
+				D19871D02D13C9120040AFBB /* LazyView.swift */,
+				D19871B92D13C8630040AFBB /* UIKitViewRepresentable.swift */,
+				D19871CF2D13C8E50040AFBB /* Application */,
+				D19871C22D13C8A70040AFBB /* TextView */,
+				D19871C12D13C89F0040AFBB /* TextField */,
+				D19871B12D13C85A0040AFBB /* Assets.xcassets */,
+			);
+			path = CustomTextField_example;
+			sourceTree = "<group>";
+		};
+		D19871C12D13C89F0040AFBB /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				D19871C32D13C8AD0040AFBB /* ViewModel */,
+				D19871C42D13C8B20040AFBB /* View */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		D19871C22D13C8A70040AFBB /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				D19871C52D13C8B70040AFBB /* ViewModel */,
+				D19871C62D13C8B70040AFBB /* View */,
+			);
+			path = TextView;
+			sourceTree = "<group>";
+		};
+		D19871C32D13C8AD0040AFBB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D19871CB2D13C8D20040AFBB /* TextFieldViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D19871C42D13C8B20040AFBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D19871CD2D13C8D40040AFBB /* TextFieldView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D19871C52D13C8B70040AFBB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D19871C72D13C8C10040AFBB /* TextViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D19871C62D13C8B70040AFBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D19871C92D13C8C90040AFBB /* TextView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D19871CF2D13C8E50040AFBB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D198719D2D13C8540040AFBB /* CustomTextField_example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D19871AC2D13C8560040AFBB /* Build configuration list for PBXNativeTarget "CustomTextField_example" */;
+			buildPhases = (
+				D198719A2D13C8540040AFBB /* Sources */,
+				D198719B2D13C8540040AFBB /* Frameworks */,
+				D198719C2D13C8540040AFBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomTextField_example;
+			packageProductDependencies = (
+				D19871BC2D13C87A0040AFBB /* CustomTextFieldLibrary */,
+				D19871BF2D13C88B0040AFBB /* KeyboardManager */,
+			);
+			productName = CustomTextField_example;
+			productReference = D198719E2D13C8540040AFBB /* CustomTextField_example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D19871962D13C8540040AFBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D198719D2D13C8540040AFBB = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = D19871992D13C8540040AFBB /* Build configuration list for PBXProject "CustomTextField_example" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D19871952D13C8540040AFBB;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D19871BB2D13C87A0040AFBB /* XCRemoteSwiftPackageReference "CustomTextFieldLibrary" */,
+				D19871BE2D13C88B0040AFBB /* XCRemoteSwiftPackageReference "KeyboardManagerLibrary" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D198719F2D13C8540040AFBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D198719D2D13C8540040AFBB /* CustomTextField_example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D198719C2D13C8540040AFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19871B82D13C85A0040AFBB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D198719A2D13C8540040AFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19871BA2D13C8630040AFBB /* UIKitViewRepresentable.swift in Sources */,
+				D19871B52D13C85A0040AFBB /* ContentView.swift in Sources */,
+				D19871CC2D13C8D20040AFBB /* TextFieldViewModel.swift in Sources */,
+				D19871CE2D13C8D40040AFBB /* TextFieldView.swift in Sources */,
+				D19871D12D13C9120040AFBB /* LazyView.swift in Sources */,
+				D19871B62D13C85A0040AFBB /* CustomTextField_exampleApp.swift in Sources */,
+				D19871C82D13C8C10040AFBB /* TextViewModel.swift in Sources */,
+				D19871CA2D13C8C90040AFBB /* TextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D19871AA2D13C8560040AFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D19871AB2D13C8560040AFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D19871AD2D13C8560040AFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomTextField_example/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SCMS5NHSF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.otis.projects.CustomTextField-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D19871AE2D13C8560040AFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomTextField_example/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SCMS5NHSF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.otis.projects.CustomTextField-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D19871992D13C8540040AFBB /* Build configuration list for PBXProject "CustomTextField_example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D19871AA2D13C8560040AFBB /* Debug */,
+				D19871AB2D13C8560040AFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D19871AC2D13C8560040AFBB /* Build configuration list for PBXNativeTarget "CustomTextField_example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D19871AD2D13C8560040AFBB /* Debug */,
+				D19871AE2D13C8560040AFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D19871BB2D13C87A0040AFBB /* XCRemoteSwiftPackageReference "CustomTextFieldLibrary" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/1domybest/CustomTextFieldLibrary";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+		D19871BE2D13C88B0040AFBB /* XCRemoteSwiftPackageReference "KeyboardManagerLibrary" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/1domybest/KeyboardManagerLibrary.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D19871BC2D13C87A0040AFBB /* CustomTextFieldLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D19871BB2D13C87A0040AFBB /* XCRemoteSwiftPackageReference "CustomTextFieldLibrary" */;
+			productName = CustomTextFieldLibrary;
+		};
+		D19871BF2D13C88B0040AFBB /* KeyboardManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D19871BE2D13C88B0040AFBB /* XCRemoteSwiftPackageReference "KeyboardManagerLibrary" */;
+			productName = KeyboardManager;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D19871962D13C8540040AFBB /* Project object */;
+}

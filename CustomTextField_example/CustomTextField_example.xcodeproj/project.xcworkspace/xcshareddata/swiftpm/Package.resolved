@@ -1,0 +1,42 @@
+{
+  "originHash" : "3738f0d990f3cdb99dace5e88e0941fa33cb2377ae207026c870aaa51e979c01",
+  "pins" : [
+    {
+      "identity" : "customtextfieldlibrary",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/1domybest/CustomTextFieldLibrary",
+      "state" : {
+        "revision" : "3515f1603f1072ce7c213b760f7e5ff992d8550c",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "keyboardmanagerlibrary",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/1domybest/KeyboardManagerLibrary.git",
+      "state" : {
+        "revision" : "8f994aad4faae2e9493836097f731dc1333d2cdf",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher.git",
+      "state" : {
+        "revision" : "2ef543ee21d63734e1c004ad6c870255e8716c50",
+        "version" : "7.12.0"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+        "version" : "5.7.1"
+      }
+    }
+  ],
+  "version" : 3
+}
